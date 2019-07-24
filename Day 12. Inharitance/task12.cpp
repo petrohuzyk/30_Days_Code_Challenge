@@ -8,7 +8,8 @@ Complete the Student class by writing the following:
         A string, lastName.
         An integer, id.
         An integer array (or vector) of test scores, scores.
-A char calculate() method that calculates a Student object's average and returns the grade character representative of their calculated average:
+A char calculate() method that calculates a Student object's average and returns the grade character 
+representative of their calculated average:
  */
 
 #include <iostream>
@@ -47,7 +48,8 @@ class Student :  public Person{
         *   id - An integer denoting the Person's ID number.
         *   scores - An array of integers denoting the Person's test scores.
         */
-        Student(string firstName, string lastName, int identification, vector<int> testScores) : Person(firstName, lastName, identification) {
+        Student(string firstName, string lastName, int identification, vector<int> testScores) : 
+            Person(firstName, lastName, identification) {
             this->testScores = testScores;
         }
 
